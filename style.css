@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+
+.customButton {
+  width:140px;
+  height:50px;
+  background-color: #00c3ffb0;
+  border: none;
+  color: #000;
+  font-weight:bold;
+  padding: 15px 32px;
+  border-radius: 15px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+input[type=text] {
+  width: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 130px;
+}
+
+.button-nx{
+  color: #FFFFFF;
+  font: 8.034px Muli-SemiBold;
+  background: #00B5CE;
+  padding: 10px 0px;
+}
